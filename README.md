@@ -1,22 +1,27 @@
-PROBLEM STATEMENT:
+# Visibility-Prediction
+### PROBLEM STATEMENT:
 lack of technology in visibility prediction affecting occurence of events.
-
-SOLUTION:
+### SOLUTION:
 To solve this problem we are proposing an open-source solution which predicts the maximum distance upto which objects can be seen at a particular temperature (Keeping other factors constant).
 
-About project:
-Visibility is a measure of the distance at which an object or light can be clearly perceived.
-We predict the visibility of an object from a particular distance in kilometres on the basis of: Dry Bulb Temp, Wet Bulb Temp, Relative humidity, Wind Speed, Wind Direction, Precipitation & Sea Level Pressure.
+### About project:
+##### Visibility is a measure of the distance at which an object or light can be clearly perceived. 
 
-Visibility is affected by certain environmental factors like presence of fog, clouds, haze, precipitation, smog etc. Also, may vary according to the direction and angle of view and the height of the observer.
+We predict the visibility of an object from a particular distance in kilometres on the basis of:
+Dry Bulb Temp, Wet Bulb Temp, Relative humidity, Wind Speed, Wind Direction, Precipitation & Sea Level Pressure.
 
-The greatest safe distance at which a black object of suitable dimensions, situated near the ground, can be seen and recognised when observed against a bright background is called visibility.
+Visibility is affected by certain environmental factors like presence of fog, clouds, haze, precipitation, smog etc.
+Also, may vary according to the direction and angle of view and the height of the observer.
 
-Methodology:
+The greatest safe distance at which a black object of suitable dimensions, situated near the ground, can be seen and recognised 
+when observed against a bright background
+ is called visibility.
+
+Methodology: <br>
 •Raw Data Collection
 
 •Preproceesing
-
+ 
 •EDA and Data Visualization
 
 •Feature Engineering
@@ -29,13 +34,17 @@ Methodology:
 
 •Model Deployment
 
-Evaluation matrices: R^2.
-Applications:
-•Key value in deciding if the flight would take off or land or not.
-•Flight's Visibility is an important factor in all phases of flight, but especially when an aircraft is manoeuvring on or close to ground, at that time weather has to be clear in order to avoid accidents.
-•Also a very important value in knowing distance from the land while docking a ship at a dockyard.
-•Car Racing is not allowed if there isn't proper visibility.
-•Useful in day to day life as well while driving vehicles.
 
-Deployment Link
+### Evaluation matrices: R^2.
+
+Applications: <br>
+•Key value in deciding if the flight would take off or land or not. <br>
+•Flight's 
+Visibility is an important factor in all phases of flight,
+  but especially when an aircraft is manoeuvring on or close to ground, at that time weather has to be clear in order to avoid accidents. <br>
+•Also a very important value in knowing distance from the land while docking a ship at a dockyard. <br>
+•Car Racing is not allowed if there isn't proper visibility.<br>
+•Useful in day to day life as well while driving vehicles.<br>
+
+### Deployment Link
 https://hidden-vision.herokuapp.com/
