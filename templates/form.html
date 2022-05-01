@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiblity Prediction</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/gif" href="favicon/animated_favicon1.gif">
+    <link rel="stylesheet" href="..//static//css//style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">VISIBILITY PREDICTION</div>
+        <form action = "/prediction" method="POST">
+            <div class="Input_data">
+                <div class="input_box">
+                    <span class ="details">Precipitation :</span>
+                    <input type="text" placeholder="00.000 inch" id="Precipitation" name="Precipitation">
+                </div>
+                <div class="input_box">
+                    <span class ="details">Dry Bulb Temp :</span>
+                    <input type="text" placeholder="00.0 F" id="Dry_Bulb_Temp" name="Dry_Bulb_Temp">
+                </div>
+                <div class="input_box">
+                    <span class ="details">Wet Bulb Temp :</span>
+                    <input type="text" placeholder="00.0F" id="Wet_Bulb_Temp" name="Wet_Bulb_Temp">
+                </div>
+                <div class="input_box">
+                    <span class ="details">Relative Humidity :</span>
+                    <input type="text" placeholder="000 %" id="Relative_Humidity" name="Relative_Humidity">
+                </div>
+                <div class="input_box">
+                    <span class ="details">Wind Speed :</span>
+                    <input type="text" placeholder="000.00 miles/hr " id="Wind_Speed" name="Wind_Speed">
+                </div>
+                <div class="input_box">
+                    <span class ="details">Wind Direction :</span>
+                    <input type="text" placeholder="From North using Compass" id="Wind_Direction" name="Wind_Direction">
+                </div>
+                <div class="input_box">
+                    <span class ="details">Sea level Pressure :</span>
+                    <input type="text" placeholder="00 Hg" id="Sea_level_Pressure" name="Sea_level_Pressure">
+                </div>
+
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+2022-05-01 14:15:18,059  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-01 14:31:57,588  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-01 14:36:11,847  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-01 14:37:31,766  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-01 18:27:53,229  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-01 18:29:36,202 division by zero
+2022-05-01 18:58:08,097 division by zero
+2022-05-01 18:58:08,107  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-01 18:58:30,025 Someone entered site, rendering Homepage !
+2022-05-01 18:58:30,033 127.0.0.1 - - [01/May/2022 18:58:30] "GET / HTTP/1.1" 200 -
+2022-05-01 18:58:30,128 127.0.0.1 - - [01/May/2022 18:58:30] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-05-01 19:01:25,798 division by zero
+2022-05-01 19:01:25,808  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-01 19:02:15,914 division by zero
+2022-05-01 19:02:15,923  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-01 19:02:22,238 Someone entered site, rendering Homepage !
+2022-05-01 19:02:22,245 127.0.0.1 - - [01/May/2022 19:02:22] "GET / HTTP/1.1" 200 -
+2022-05-01 19:02:22,278 127.0.0.1 - - [01/May/2022 19:02:22] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-05-01 19:02:22,993 Someone entered site, rendering Homepage !
+2022-05-01 19:02:22,994 127.0.0.1 - - [01/May/2022 19:02:22] "GET / HTTP/1.1" 200 -
+2022-05-01 19:02:23,032 127.0.0.1 - - [01/May/2022 19:02:23] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-05-01 19:02:37,581 127.0.0.1 - - [01/May/2022 19:02:37] "POST /prediction HTTP/1.1" 200 -
+2022-05-01 19:02:37,619 127.0.0.1 - - [01/May/2022 19:02:37] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-05-01 23:39:49,560 127.0.0.1 - - [01/May/2022 23:39:49] "POST /prediction HTTP/1.1" 200 -
+2022-05-01 23:39:49,654 127.0.0.1 - - [01/May/2022 23:39:49] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-05-01 23:40:32,285 127.0.0.1 - - [01/May/2022 23:40:32] "POST /prediction HTTP/1.1" 200 -
+2022-05-01 23:40:32,335 127.0.0.1 - - [01/May/2022 23:40:32] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-05-02 01:11:23,367 127.0.0.1 - - [02/May/2022 01:11:23] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
