@@ -1,0 +1,33 @@
+2022-06-07 01:17:35,670  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-07 01:17:53,708 Someone entered site, rendering Homepage !
+2022-06-07 01:17:53,728 127.0.0.1 - - [07/Jun/2022 01:17:53] "GET / HTTP/1.1" 200 -
+2022-06-07 01:17:53,841 127.0.0.1 - - [07/Jun/2022 01:17:53] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-06-07 01:17:54,007 127.0.0.1 - - [07/Jun/2022 01:17:54] "[33mGET /favicon/animated_favicon1.gif HTTP/1.1[0m" 404 -
+2022-06-07 01:17:54,016 127.0.0.1 - - [07/Jun/2022 01:17:54] "[33mGET /favicon/favicon.ico HTTP/1.1[0m" 404 -
+2022-06-07 01:18:02,159 Left Home Page.
+2022-06-07 01:18:02,167 Successfully taken input values from user
+2022-06-07 01:18:02,168 Calling saved Serialized  model objects fro predictions
+2022-06-07 01:18:06,680 Creating object of custom model made for the predictions.
+2022-06-07 01:18:06,680 Entered final_model class.
+2022-06-07 01:18:06,681 Predicting Visibility from the given input
+2022-06-07 01:18:06,683 Calling PCA object for dimensionality reduction.
+2022-06-07 01:18:08,199 Saved the input in the MySQL Prediction Database !
+2022-06-07 01:18:08,199 Rendering Prediction-page Output displayed !!
+2022-06-07 01:18:08,205 127.0.0.1 - - [07/Jun/2022 01:18:08] "POST /prediction HTTP/1.1" 200 -
+2022-06-07 01:18:08,250 127.0.0.1 - - [07/Jun/2022 01:18:08] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-06-07 01:18:08,320 127.0.0.1 - - [07/Jun/2022 01:18:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-06-07 14:41:46,107  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-07 14:42:15,661 Someone entered site, rendering Homepage !
+2022-06-07 14:42:15,673 127.0.0.1 - - [07/Jun/2022 14:42:15] "GET / HTTP/1.1" 200 -
+2022-06-07 14:42:15,707 127.0.0.1 - - [07/Jun/2022 14:42:15] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
+2022-06-07 14:42:30,521 Left Home Page.
+2022-06-07 14:42:30,550 Successfully taken input values from user
+2022-06-07 14:42:30,551 Calling saved Serialized  model objects fro predictions
+2022-06-07 14:42:36,052 Creating object of custom model made for the predictions.
+2022-06-07 14:42:36,052 Entered final_model class.
+2022-06-07 14:42:36,052 Predicting Visibility from the given input
+2022-06-07 14:42:36,054 Calling PCA object for dimensionality reduction.
+2022-06-07 14:42:37,459 Saved the input in the MySQL Prediction Database !
+2022-06-07 14:42:37,459 Rendering Prediction-page Output displayed !!
+2022-06-07 14:42:37,466 127.0.0.1 - - [07/Jun/2022 14:42:37] "POST /prediction HTTP/1.1" 200 -
+2022-06-07 14:42:37,511 127.0.0.1 - - [07/Jun/2022 14:42:37] "[36mGET /static/css//style.css HTTP/1.1[0m" 304 -
