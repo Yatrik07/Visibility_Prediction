@@ -1,6 +1,4 @@
 # Visibility-Prediction
-### PROBLEM STATEMENT:
-lack of technology in visibility prediction affecting occurence of events.
 
 ### About project:
 ##### Visibility is a measure of the distance at which an object or light can be clearly perceived. 
