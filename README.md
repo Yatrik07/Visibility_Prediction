@@ -1,13 +1,11 @@
 # Visibility-Prediction
 ### PROBLEM STATEMENT:
 lack of technology in visibility prediction affecting occurence of events.
-### SOLUTION:
-To solve this problem we are proposing an open-source solution which predicts the maximum distance upto which objects can be seen at a particular temperature (Keeping other factors constant).
 
 ### About project:
 ##### Visibility is a measure of the distance at which an object or light can be clearly perceived. 
 
-We predict the visibility of an object from a particular distance in kilometres on the basis of:
+Visibility is predicted of an object from a particular distance in kilometres on the basis of:
 Dry Bulb Temp, Wet Bulb Temp, Relative humidity, Wind Speed, Wind Direction, Precipitation & Sea Level Pressure.
 
 Visibility is affected by certain environmental factors like presence of fog, clouds, haze, precipitation, smog etc.
@@ -17,27 +15,25 @@ The greatest safe distance at which a black object of suitable dimensions, situa
 when observed against a bright background
  is called visibility.
 
-Methodology: <br>
-•Raw Data Collection
+## Methodology: <br>
+● Raw Data Collection 
+● Data Pre-processing 
+● Eda and Data Visualization 
+● Feature Engineering 
+● Logging 
+● Maintain Training Data in Database 
+● Cross Validation and Hyper Parameter Tuning 
+● Model Selection 
+● Maintaining Prediction Database <br>
 
-•Preproceesing
- 
-•EDA and Data Visualization
-
-•Feature Engineering
-
-•Cross validation and hyper parameter tuning
-
-•Prediction data base maintaining
-
-•API making with Flask
-
-•Model Deployment
-
+## Deployment : <br>
+● Creating API 
+● Integrating with WEB FRAMEWORK - flask 
+● Model Deployment 
 
 ### Evaluation matrices: R^2.
 
-Applications: <br>
+### Real Life Applications: <br>
 •Key value in deciding if the flight would take off or land or not. <br>
 •Flight's 
 Visibility is an important factor in all phases of flight,
@@ -50,4 +46,4 @@ Visibility is an important factor in all phases of flight,
 https://hidden-vision.herokuapp.com/
 
 ### For Project Report :
-#### Check out "Presentation and Documentation" Folder 
+#### Check out "Presentation and Documentation" Folder     or       https://github.com/Yatrik07/Visibility_Prediction/tree/main/Presentation%20and%20Documentation
