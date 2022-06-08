@@ -9,4 +9,3 @@ joblib
 gunicorn
 Jinja2
 scipy
-logging
