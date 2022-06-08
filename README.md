@@ -14,20 +14,20 @@ when observed against a bright background
  is called visibility.
 
 ## Methodology: <br>
-● Raw Data Collection 
-● Data Pre-processing 
-● Eda and Data Visualization 
-● Feature Engineering 
-● Logging 
-● Maintain Training Data in Database 
-● Cross Validation and Hyper Parameter Tuning 
-● Model Selection 
+● Raw Data Collection <br>
+● Data Pre-processing <br>
+● Eda and Data Visualization  <br>
+● Feature Engineering <br>
+● Logging <br>
+● Maintain Training Data in Database <br>
+● Cross Validation and Hyper Parameter Tuning <br>
+● Model Selection <br>
 ● Maintaining Prediction Database <br>
 
 ## Deployment : <br>
-● Creating API 
-● Integrating with WEB FRAMEWORK - flask 
-● Model Deployment 
+● Creating API <br>
+● Integrating with WEB FRAMEWORK - Flask <br>
+● Model Deployment <br>
 
 ### Evaluation matrices: R^2.
 
@@ -44,4 +44,4 @@ Visibility is an important factor in all phases of flight,
 https://hidden-vision.herokuapp.com/
 
 ### For Project Report :
-#### Check out "Presentation and Documentation" Folder     or       https://github.com/Yatrik07/Visibility_Prediction/tree/main/Presentation%20and%20Documentation
+#### Check out "Presentation and Documentation" Folder    or [Click Here](https://github.com/Yatrik07/Visibility_Prediction/tree/main/Presentation%20and%20Documentation)
