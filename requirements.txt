@@ -9,3 +9,4 @@ joblib
 gunicorn
 Jinja2
 scipy
+xgboost
