@@ -58,7 +58,7 @@ def pred_page():
     
     except Exception as e:
         logs.info("Something went wrong :" + str(e))
-        return render_template('Error.html' , result = str(e)    
+        return render_template('Error.html' , result = str(e))   
 
 
 def get_serialized_objects():
