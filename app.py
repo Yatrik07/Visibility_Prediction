@@ -39,24 +39,26 @@ def pred_page():
 
             input1= np.array([Dry_Bulb_Temp, Relative_Humidity, Wind_Speed,Wind_Direction, Sea_level_Pressure, Precipitation]).reshape(1,6)
 
+
+
+        logs.info("Calling saved Serialized  model objects fro predictions")
+        clustering_obj , scaler = get_serialized_objects()
+
+        logs.info("Creating object of custom model made for the predictions.")
+        model = final_model(clustering_obj)
+
+        logs.info("Predicting Visibility from the given input")
+        output = model.predict((scaler.transform(input1)))
+        print(output)
+        enterTable(Dry_Bulb_Temp, Relative_Humidity, Wind_Speed, Wind_Direction, Sea_level_Pressure, Precipitation,  output )
+        logs.info("Saved the input in the MySQL Prediction Database !")
+        print("A")
+        logs.info("Rendering Prediction-page Output displayed !!")
+        return render_template('prediction.html' , result = str(round(output[0],2)))
+    
     except Exception as e:
         logs.info("Something went wrong :" + str(e))
-        return render_template('Error.html' , result = "Wrong Input, Enter integers only!")
-
-    logs.info("Calling saved Serialized  model objects fro predictions")
-    clustering_obj , scaler = get_serialized_objects()
-
-    logs.info("Creating object of custom model made for the predictions.")
-    model = final_model(clustering_obj)
-
-    logs.info("Predicting Visibility from the given input")
-    output = model.predict((scaler.transform(input1)))
-    print(output)
-    enterTable(Dry_Bulb_Temp, Relative_Humidity, Wind_Speed, Wind_Direction, Sea_level_Pressure, Precipitation,  output )
-    logs.info("Saved the input in the MySQL Prediction Database !")
-    print("A")
-    logs.info("Rendering Prediction-page Output displayed !!")
-    return render_template('prediction.html' , result = str(round(output[0],2)))
+        return render_template('Error.html' , result = str(e)    
 
 
 def get_serialized_objects():
