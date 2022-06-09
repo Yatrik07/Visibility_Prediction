@@ -82,7 +82,10 @@ class final_model:
             model = joblib.load("Models//RandomForestModel_cluster0_.pickle")
             output = model.predict(input.reshape(-1,6))
         if cluster[0] == 1:
-            model = joblib.load("Models//RandomForestModel_cluster1_.pickle")
+            
+            # Here the model should be used as model selection is RandomForest for cluster1 but its size is more, so could not upload on github 
+            
+            model = joblib.load("Models//XGBoostModel_cluster1_.pickle")
             output = model.predict(input.reshape(-1,6))
         return output
 
