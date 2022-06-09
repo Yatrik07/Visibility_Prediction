@@ -63,7 +63,6 @@ def pred_page():
 
 def get_serialized_objects():
     path = 'Models//'
-    model = joblib.load(path + 'RandomForestModel_fullData_.pickle')
     scaler_obj = joblib.load(path+"scalar_object.pickle")
     clustering_object = joblib.load(path+"Clustering_model.pickle")
     return clustering_object  , scaler_obj
