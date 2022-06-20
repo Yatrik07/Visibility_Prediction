@@ -44,4 +44,4 @@ Visibility is an important factor in all phases of flight,
 https://hidden-vision.herokuapp.com/
 
 ### For Project Report :
-#### Check out "Presentation and Documentation" Folder    or [Click Here](https://github.com/Yatrik07/Visibility_Prediction/tree/main/Presentation%20and%20Documentation)
+#### Check out "Presentation and Documentation" Folder    or [Click Here]([https://github.com/Yatrik07/Visibility_Prediction/tree/main/Presentation%20and%20Documentation](https://github.com/Yatrik07/Visibility_Prediction/blob/main/Presentation%20and%20Documentation/Documentation.pdf))
